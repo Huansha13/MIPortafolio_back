@@ -1,4 +1,4 @@
-package com.yfhl.miportafolio.controller;
+package com.yfhl.miportafolio.control.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yfhl.miportafolio.model.service.TestService;
+import com.yfhl.miportafolio.control.service.TestService;
+
 
 @RestController
 @RequestMapping("/api/test")

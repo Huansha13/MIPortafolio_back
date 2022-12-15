@@ -1,11 +1,11 @@
-package com.yfhl.miportafolio.model.dao.impl;
+package com.yfhl.miportafolio.control.dao.impl;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.stereotype.Component;
 
-import com.yfhl.miportafolio.model.dao.TestDao;
+import com.yfhl.miportafolio.control.dao.TestDao;
 
 @Component
 public class TestDaoImpl implements TestDao{

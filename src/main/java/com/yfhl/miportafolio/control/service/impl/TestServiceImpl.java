@@ -1,12 +1,12 @@
-package com.yfhl.miportafolio.model.service.impl;
+package com.yfhl.miportafolio.control.service.impl;
 
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.yfhl.miportafolio.model.dao.TestDao;
-import com.yfhl.miportafolio.model.service.TestService;
+import com.yfhl.miportafolio.control.dao.TestDao;
+import com.yfhl.miportafolio.control.service.TestService;
 
 @Service
 public class TestServiceImpl  implements TestService{
