@@ -8,6 +8,8 @@ import javax.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Entity @Getter @Setter
 public class Habilidad {
 	
@@ -20,5 +22,6 @@ public class Habilidad {
 	private String color;
 	private String descripcion;
 	private Integer porcentaje;
+	private Date   fechaDeRegistro;
 
 }

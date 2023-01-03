@@ -1,5 +1,6 @@
 package com.yfhl.miportafolio.control.model;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -25,6 +26,7 @@ public class CategoriaHabilidad {
 	
 	private String icono;
 	private String nombre;
+	private Date fechaDeRegistro;
 
 	
 	@JsonIgnoreProperties({"categoriaHabilidad", "hibernateLazyInitializer", "handler"})

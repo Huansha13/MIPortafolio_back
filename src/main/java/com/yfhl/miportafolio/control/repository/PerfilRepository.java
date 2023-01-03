@@ -7,5 +7,5 @@ import com.yfhl.miportafolio.control.model.Perfil;
 
 public interface PerfilRepository extends JpaRepository<Perfil, Long>{
 
-	Perfil findByUserName(String userName);
+    Perfil findByUserName(String username);
 }

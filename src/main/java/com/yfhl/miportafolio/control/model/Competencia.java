@@ -12,12 +12,12 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
-public class Competencias {
+public class Competencia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idExperiencia ;
 
-    private Date FechaDeRegistro;
-    private 
+    private Date fechaDeRegistro;
+    private String descripcion;
 
 }
